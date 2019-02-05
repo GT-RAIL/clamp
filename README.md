@@ -12,6 +12,7 @@ Prerequisites
 - [GTSAM](https://bitbucket.org/gtborg/gtsam) >= 4.0 alpha, a C++ library that implement smoothing and mapping (SAM) framework in robotics and vision.
 Here we use factor graph implementations and inference/optimization tools provided by GTSAM.
 - [GPMP2](https://github.com/gtrll/gpmp2), a C++ library that implements Gaussian Process Motion Planner 2.
+
 (To use all the features, install the MATLAB toolboxes for GTSAM and GPMP2)
 
 Compilation & Installation
