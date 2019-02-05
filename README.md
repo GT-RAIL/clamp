@@ -1,6 +1,8 @@
 CLAMP: Combined Learning from Demonstration and Motion Planning
 ===================================================
-CLAMP is an probabilistic inference based approach which learns a a trajectory prior from human demonstrations and uses factor graph optimization for efficient skill reproduction. 
+CLAMP is an probabilistic inference based approach which learns a a trajectory prior from human demonstrations and uses factor graph optimization for efficient skill reproduction. The baseline capabilities of CLAMP are described in [Towards robust skill generalization: Unifying learning from demonstration and motion planning](http://proceedings.mlr.press/v78/rana17a/rana17a.pdf) (CoRL 2017). Extensions of CLAMP to learn from demonstrations provided in clutter as well as incrementally updating the trajectory prior are provided in [Learning Generalizable Robot Skills from Demonstrations in Cluttered Environments](https://arxiv.org/pdf/1808.00349.pdf) (IROS 2018). 
+
+This library is an implementation of CLAMP. The core library is developed in C++ language, alongside a MATLAB frontend. Demo scripts are provided in MATLAB to reproduce some of the results in our publications.
 
 CLAMP is being developed by [M. Asif Rana](mailto:asif.rana@gatech.edu) and [Mustafa Mukadam](mailto:mmukadam3@gatech.edu) at the Georgia Tech Institute for Robotics & Intelligent Machines.
 
