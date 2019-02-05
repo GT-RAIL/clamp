@@ -41,6 +41,15 @@ $ make install
 
 After you install the Matlab toolbox, don't forget to add `/path/install/toolbox` to your Matlab path.
 
+Usage
+-----
+
+The MATLAB toolbox contains multiple demo scripts described as follows,
+
+1. `mainBatchCLAMP.m` - learns trajectory prior from an already acquired dataset, followed by skill generalization [1](http://proceedings.mlr.press/v78/rana17a/rana17a.pdf).
+2. `mainIncrementalCLAMP.m` -  updates the prior as dataset is aggregated, followed by skill generalization [2](https://arxiv.org/pdf/1808.00349.pdf).
+3. `mainBatchCLAMP_ObstacleWeightedPrior.m` - learns prior from demonstrations provided in the presence of clutter [2](https://arxiv.org/pdf/1808.00349.pdf).
+
 
 Citing
 -----
@@ -48,7 +57,7 @@ Citing
 If you use CLAMP in an academic context, please cite the following publications:
 
 ```
-
+[1] 
 @inproceedings{rana2017towards,
   title={Towards robust skill generalization: Unifying learning from demonstration and motion planning},
   author={Rana, Muhammad Asif and Mukadam, Mustafa and Ahmadzadeh, S Reza and Chernova, Sonia and Boots, Byron},
@@ -56,6 +65,7 @@ If you use CLAMP in an academic context, please cite the following publications:
   year={2017}
 }
 
+[2]
 @inproceedings{rana2018learning,
   title={Learning Generalizable Robot Skills from Demonstrations in Cluttered Environments},
   author={Rana, M Asif and Mukadam, Mustafa and Ahmadzadeh, S Reza and Chernova, Sonia and Boots, Byron},
